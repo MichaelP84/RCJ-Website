@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  color: #fff; /* Text color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items along the main axis */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Pushes the brand to the left */
+}
+
+.navbar-item {
+  padding: 1rem; /* Adjust padding as needed */
+}
+
+.navbar-end {
+  display: flex;
+  align-items: center;
+}
