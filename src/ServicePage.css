@@ -1,0 +1,103 @@
+.grid-container {
+    display: grid;
+    padding: 5%;
+  }
+
+  .grid-row-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 500px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .grid-row-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-top: 2.5%;
+    min-height: 500px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .grid-row-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-top: 2.5%;
+    min-height: 500px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  
+  .service-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+ 
+  
+  .bullet-list-div {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .list-item {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px;
+    flex-grow: 1;
+    background-color: #fff; /* Background color for list items */
+    color: #565d9b; /* Text color for list items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+
+  .title-part {
+    margin: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: transparent; /* Set background color as transparent */
+  }
+
+  .part {
+    border: 1px solid #68599b; 
+    border-radius: 5px;
+    padding: 100px;
+    background-color: transparent; /* Set background color as transparent */
+  }
+  
+
+  .service-title-span {
+    color: #68599b; /* Set the desired color */
+    border-bottom: 1px solid #68599b; /* Add a line under the title */
+    font-size: 1.5em;
+    padding-bottom: 20px; /* Adjust padding as needed */
+  }
+
+  .text-info{
+    color: #222250;
+    font-size: large;
+    padding-top: 25px;
+  }
+
+

@@ -6,8 +6,11 @@ function ContactPage() {
     
     <div>
       <NavBar/>
-      <h2>Contact Us</h2>
-      <h2>Help me</h2>
+      <section>
+          <p>Contact us:</p>
+          <p>Email: Paul.Pasala@rcjtechsolutions.om</p>
+          <p>Phone: 713-822-4327</p>
+        </section>
       {/* Add your contact form or contact information here */}
     </div>
   );
